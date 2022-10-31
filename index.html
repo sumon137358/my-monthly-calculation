@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculation your money</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="text-center"> <samp  class="colorH1">B</samp>ACHELOR <samp class="colorH1">D</samp>OLLAR <samp class="colorH1">A</samp>CCOUNT</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="left-part">
+                    <img  src="emages/dollar1.jpg" alt="">
+
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-part">
+                    <div class="income">
+                        <h3>Income</h3>
+                        <label for="income">Income:</label>
+                        <input type="text" id="income" name="Income" placeholder="Your Monthly Income">
+                    </div>
+                    <div class="expense">
+                        <h3>Expense</h3>
+                        <label for="food">Food:</label>
+                        <input type="text" id="food" name="Food" placeholder="food expense">
+                    </div>
+                    <div class="rent">
+                       
+                        <label for="rent">Rent:</label>
+                        <input type="text" id="rent" name="Rent" placeholder="rent expense"> 
+                    </div>
+                    <div class="clothes">
+                       
+                        <label for="clothes">Clothes:</label>
+                        <input type="text" id="clothes" name="Clothes" placeholder="clothes Expense"> 
+                    </div>
+                    <div class="calculate">
+                        <h4 id="expense">Total Expenses : $ </h4>
+                        <h4 >Balance : <samp id="balance">$</samp></h4>
+                        <br>
+                        <input id="calculate-btn" class="btn btn-success  " type="submit" value="Calculate">
+
+                    </div>
+                    <div class="save-area">
+                        <label for="save">Save: <input id="saveInput"  class="save-input" type="text" id="Save" name="Save" placeholder="save "> %   <input id="saveBtn" class="btn btn-primary " type="submit" value="submit"></label>
+
+                    </div>
+                    <div class="save-amount">
+                        <h4>Saving Amount :<samp id="AmountSave">$</samp> </h4>
+                        <h4>Remaining Balance: <samp id="remainAmount">$</samp></h4>
+                    </div>
+                   
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
